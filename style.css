@@ -1,0 +1,561 @@
+*{margin:0; padding:0;}
+body{
+	background-color:#e7e7e9;
+	min-height:100%;
+	position:relative;
+}
+#sticker{
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+}
+.clear{
+	overflow:hidden;
+}
+.wrapper{
+	
+}
+.main_wrap{
+	width:100%;
+}
+.wrap{
+	width:960px;
+	margin:0 auto;
+}
+
+/*<<<<<<<--- header section---->>>>> */
+
+header{
+	background:#292929;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+.header {
+	height: 80px;
+	background: #292929;
+	overflow:hidden;
+}
+.header_bg {
+	background: #292929;
+}
+.header_left{
+	background:#292929;
+	width:220px;
+	float:left;
+}
+.header_left h2 {
+	font-family: arial;
+	font-size: 40px;
+	
+	margin-left: 15px;
+}
+.header_left a {
+	text-decoration:none;
+	color: #fff;
+}
+.header_right{
+	float:right;
+	background:#292929;
+	width:525px;
+}
+
+.header_right ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.header_right ul li {
+	height: 70px;
+	display: block;
+	float: left;
+	border-left: 1px solid #000;
+	padding-top: 10px;
+}
+
+.header_right ul li a {
+	width:25%;
+	color: #fff;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 16px;
+	padding: 11px 47px 52px 35px;
+}
+.header_right ul li a:hover, #active {
+	color: #00ac00;
+	padding: 10px 47px 46px 35px;
+	background: #292929;
+	border-bottom: 7px solid #00ac00;
+}
+
+/*<<<<<<----content section--->>>>>> */
+
+.content_wrapper {
+	margin-top: 100px;
+}
+.downnp{
+	border-right: 1px solid #BBBBBB;
+	border-left: 1px solid #BBBBBB;
+}
+.content {
+	width: 640px;
+	float: left;
+	overflow:hidden;
+}
+.article{
+	margin-bottom: 100px;
+}
+.content img {
+	width: 620px;
+}
+.content h2 {
+	font-size: 25px;
+	font-family: lato;
+	padding: 15px;
+}
+.content p {
+	font-size: 17px;
+	padding: 15px;
+	text-align: justify;
+	color: #707070;
+}
+.readmore {
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.readmore a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	font-size: 17px;
+	color: #707070;
+	border: 1px solid #BABABA;
+	border-radius: 25px;
+}
+.readmore a:hover {
+	color: #212121;
+}
+.relatedpost{}
+.relatedpost h2 {
+	background: #D5D5D7;
+	color: #9D9D9F;
+	border-bottom: 2px solid #6F6F70;
+	border-left: 5px solid green;
+}
+.relatedpost img {
+	width: 190px;
+	height: 110px;
+	padding: 10px;
+}
+.relatedpost img:hover{opacity:0.4} 
+.sidebar {
+	width: 280px;
+	float: right;
+	padding-left: 15px;
+	font-family: arial;
+	margin-right: 1px;
+}
+.aside{}
+.single_sidebar{
+	margin-bottom: 80px;
+}
+.single_sidebar h2 {
+	color: #7D7B7C;
+	background: #DBDBDB;
+	padding: 10px;
+	border-left: 5px solid green;
+	font-size: 22px;
+	text-transform:uppercase;
+}
+.single_sidebar p {
+	padding: 15px;
+	text-align: justify;
+	font-size: 17px;
+	color: #707070;
+}
+.search_box {
+	padding: 15px 0px 15px 5px;
+	width: 100%;
+	margin-top: 15px;
+	border: 1px solid #c8c8c8;
+}
+.search_box input[type="text"] {
+	padding: 15px 0px 15px 5px;
+	width: 100%;
+	margin-top: 15px;
+	border: 1px solid #c8c8c8;
+}
+.email_submit{
+	position:relative;
+}
+.email_submit input{
+	padding: 15px 0px 15px 5px;
+	width: 100%;
+	margin-top: 15px;
+	border: 1px solid #c8c8c8;
+}
+.email_submit input[type="email"] {
+	padding: 15px 0px 15px 5px;
+	width: 100%;
+	margin-top: 15px;
+	border: 1px solid #c8c8c8;
+}
+.email_submit input[type="submit"] {
+	float: right;
+	background: url(images/arrow1.png)  no-repeat;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	text-indent: -999999px;
+	border: none;
+	top: 10px;
+	right: 15px;
+	opacity: .7;
+	cursor:pointer;
+}
+
+.down {
+	height: 60px;
+	border-top: 1px solid #acacac;
+	padding-top: 7px;
+}
+.pre {
+	font-size: 22px;
+	float: left;
+	padding: 10px;
+	font-family: lato;
+	color: #818181;
+}
+.pre a {
+	font-size: 22px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: #9C9C9E;
+}
+.pre a:hover {
+	color:#686868;
+}
+.next{
+	font-size: 22px;
+	float: right;
+	padding: 10px;
+	font-family: lato;
+	color: #818181;
+}
+.next a{
+	font-size: 22px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: #9C9C9E;
+}
+.next a:hover{
+	color:#686868;
+}
+
+/*<<<<<<----content section--->>>>>> */
+
+footer{}
+
+.footer {
+	height: 250px;
+	padding: 15px;
+	text-align: center;
+	line-height: 65px;
+	margin-top: 20px;
+	width: 100%;
+}
+.footer_bg {
+	background: #D5D5D5;
+	border-top: 1px solid #acacac;
+	border-bottom: 25px solid #701616;
+}
+.footer h2 {
+	font-family: arial;
+	font-size: 50px;
+	color: #515151;
+}
+.footer p {
+	font-size: 16px;
+	padding: 10px;
+	color:#9C9C9E;
+}
+.footer a {
+	text-decoration:none;
+	color:#7F7F81;
+}
+.footer a:hover {
+	text-decoration: underline;
+	color: #646466;
+}
+.socialicon {
+	width: 100%;;
+}
+.socialicon img {
+	width:40px;
+	margin: 5px;
+}
+
+		/*-----------responsive Design-------------*/
+
+
+
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+.img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.wrap{
+	width:98%;
+}
+.header_right{
+	width: 500px;
+}
+.header_right ul li a{padding: 10px 45px 46px 30px;}
+.header_right ul li a:hover,#active {padding: 10px 45px 46px 30px;}
+.content {
+	width: 64%;
+}
+.sidebar {
+	width: 33%;
+}
+.content img {
+	width: 98%;
+}
+.relatedpost img {
+	width: 30%;
+	height: auto;
+	padding: 1%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.wrap{
+	width:98%;
+}
+.header {
+	height: 60px;
+}
+.header_left{
+	width:100%;
+	text-align:center;
+}
+.header_left h2 {
+	font-size: 35px;
+}
+.header_right{
+	display:none;
+}
+.content {
+	width: 100%;
+}
+.sidebar {
+	width: 100%;
+}
+.content h2 {
+	font-size: 18px;
+	padding: 5px;
+}
+.content p {
+	font-size: 15px;
+	padding: 10px;
+}
+.content img {
+	width: 100%;
+	height: auto;
+}
+.single_sidebar h2 {
+	padding: 5px;
+	font-size: 18px;
+}
+.single_sidebar p {
+	padding: 10px;
+	font-size: 14px;
+}
+.search_box {
+	padding: 8px 0px 8px 8px;
+}
+.email_submit input[type="email"] {
+	padding: 8px 0px 8px 5px;
+	margin-top: 19px;
+}
+.relatedpost img {
+	width: 45%;
+	height: auto;
+	padding: 2%;
+}
+.down {
+	height: 30px;
+	padding-top: 0;
+}
+.pre, .next {
+	padding: 5px;
+	font-size: 18px;
+}
+.pre a, .next a{
+	font-size:15px;
+}	
+.footer {
+	height: auto;
+	line-height: 20px;
+	width: 100%;
+	margin-top: 10px;
+	padding: 0px;
+}
+.footer h2{
+	font-size:30px;
+}
+
+.footer p {
+	font-size: 12px;
+	padding: 15px;
+}
+.socialicon img {
+	width: 30px;
+	margin: 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.wrap{
+	width:98%;
+}
+.header_left{
+	width:100%;
+	text-align:center;
+}
+.header_right{
+	display:none;
+}
+.content {
+	width: 100%;
+}
+.sidebar {
+	width: 100%;
+}
+.content img {
+	width: 100%;
+	height: auto;
+}
+.relatedpost img {
+	width: 45%;
+	height: auto;
+	padding: 2%;
+}	
+.footer {
+	height: auto;
+	line-height: 35px;
+	width: 100%;
+	margin-top: 0px;
+}
+.footer h2{
+	font-size:20px;
+}	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
